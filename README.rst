@@ -10,7 +10,7 @@ Documentation for aztro API is available `here <https://aztro.sameerkumar.websit
 Requirements
 ---------------
 
-* Python 3+
+* Python 3+ (Recommended)
 * The ``requests`` and ``dateutils`` library. `pip` should handle this for you when installing pyaztro.
 
 Installation
