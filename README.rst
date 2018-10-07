@@ -3,13 +3,15 @@ PyAztro
 
 PyAztro is a client library for `aztro <https://github.com/sameerkumar18/aztro>`_ written in Python.
 
+aztro provides horoscope info for sun signs such as Lucky Number, Lucky Color, Mood, Color, Compatibility with other sun signs, description of a sign for that day etc.
+
 Documentation for aztro API is available `here <https://aztro.sameerkumar.website>`_, documentation for PyAztro is under development.
 
 Requirements
 ---------------
 
 * Python 3+
-* The ``requests`` and ```dateutils``` library. `pip` should handle this for you when installing pyaztro.
+* The ``requests`` and ``dateutils`` library. `pip` should handle this for you when installing pyaztro.
 
 Installation
 ---------------
