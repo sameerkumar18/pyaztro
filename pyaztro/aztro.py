@@ -1,3 +1,16 @@
+# -*- coding: utf-8 -*-
+
+"""
+PyAztro
+~~~~~~~
+
+PyAztro is a Python Wrapper for aztro - The Astrology API
+
+
+:copyright: (c) 2018 by Sameer Kumar.
+:license: Apache 2.0, see LICENSE for more details.
+"""
+
 import requests
 from pyaztro.helpers import parse_date, parse_date_range, parse_time
 
