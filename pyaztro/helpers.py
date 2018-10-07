@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+
+"""
+pyaztro.helpers
+~~~~~~~
+
+"""
+
 from dateutil.parser import parse
 
 
