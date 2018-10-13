@@ -9,6 +9,7 @@ PyAztro is a Python Wrapper for aztro - The Astrology API
 
 :copyright: (c) 2018 by Sameer Kumar.
 :license: Apache 2.0, see LICENSE for more details.
+
 """
 
 import requests
