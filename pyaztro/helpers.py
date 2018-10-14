@@ -8,6 +8,12 @@ pyaztro.helpers
 
 from dateutil.parser import parse
 
+signs = [
+    'aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra',
+    'scorpio', 'sagittarius', 'capricorn', 'aquarius', 'pisces'
+]
+days = ['yesterday', 'today', 'tomorrow']
+
 
 def parse_date(date_string):
     return parse(date_string).date()

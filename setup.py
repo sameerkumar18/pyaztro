@@ -18,7 +18,7 @@ else:
 
 setup(
     name='pyaztro',
-    version='0.1',
+    version='0.2',
     description='A client library for aztro - The Astrology API',
     long_description=open(readme_path).read(),
     url='https://github.com/sameerkumar18/pyaztro',
