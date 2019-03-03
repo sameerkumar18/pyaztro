@@ -27,7 +27,7 @@ Example Usage
 
     >>> import pyaztro
     >>> horoscope = pyaztro.Aztro(sign='aries')
-    >>> horoscope.description
+    >>> horoscope.mood
     'Diligent'
 
 Support
