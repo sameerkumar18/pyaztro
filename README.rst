@@ -1,4 +1,4 @@
-PyAztro
+PyAztro 
 ============
 
 PyAztro is a client library for `aztro <https://github.com/sameerkumar18/aztro>`_ written in Python.
@@ -6,6 +6,8 @@ PyAztro is a client library for `aztro <https://github.com/sameerkumar18/aztro>`
 aztro provides horoscope info for sun signs such as Lucky Number, Lucky Color, Mood, Color, Compatibility with other sun signs, description of a sign for that day etc.
 
 Documentation for aztro API is available `here <https://aztro.sameerkumar.website>`_, documentation for PyAztro is under development.
+
+|downloads|  |GitHub make-a-pull-requests|  |Maintenance yes|
 
 Requirements
 ---------------
@@ -38,8 +40,24 @@ Please see the repository's `CONTRIBUTING` file.
 
 Say Thanks
 ---------------
-`Say Thanks <https://saythanks.io/to/sameerkumar18>`_
+|say thanks|
 
 Donate
 ---------------
-`Paypal <https://www.paypal.me/sameerkumar18>`_
+|Paypal|
+
+
+.. |downloads| image:: https://pepy.tech/badge/pyaztro
+    :target: https://pepy.tech/project/pyaztro
+
+.. |GitHub make-a-pull-requests| image:: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+   :target: http://makeapullrequest.com
+
+.. |say thanks| image:: https://img.shields.io/badge/say-thanks-ff69b4.svg
+   :target: https://saythanks.io/to/sameerkumar18
+   
+.. |Maintenance yes| image:: https://img.shields.io/badge/Maintained%3F-yes-green.svg
+   :target: https://gitHub.com/sameerkumar18/pyaztro
+
+.. |Paypal| image:: https://img.shields.io/badge/Paypal-Donate-blue.svg
+   :target: https://www.paypal.me/sameerkumar18
