@@ -1,13 +1,14 @@
 PyAztro 
 ============
+|downloads|  |GitHub make-a-pull-requests|  |Maintenance yes| |Paypal| |say thanks|
 
 PyAztro is a client library for `aztro <https://github.com/sameerkumar18/aztro>`_ written in Python.
 
 aztro provides horoscope info for sun signs such as Lucky Number, Lucky Color, Mood, Color, Compatibility with other sun signs, description of a sign for that day etc.
 
-Documentation for aztro API is available `here <https://aztro.sameerkumar.website>`_, documentation for PyAztro is under development.
+Documentation for aztro API is available `here <https://aztro.sameerkumar.website>`_, documentation for PyAztro most of the common usage.
 
-|downloads|  |GitHub make-a-pull-requests|  |Maintenance yes|
+
 
 Requirements
 ---------------
@@ -19,16 +20,47 @@ Installation
 ---------------
 ::
 
-    pip install pyaztro
+    $ pip install pyaztro
 
 Example Usage
 ------------------
-::
+:: 
 
     >>> import pyaztro
     >>> horoscope = pyaztro.Aztro(sign='aries')
+
+    # Mood
     >>> horoscope.mood
-    'Diligent'
+    'Relaxed'
+    
+    # Lucky time
+    >>> horoscope.lucky_time
+    '2pm'
+    
+    # Description
+    >>> horoscope.description
+    'If you don't have big plans, you can rest assured that you will soon. A surprise missive is waiting. Enjoy. It's spontaneity, not variety, that's the spice of life.'
+    
+    # Sun sign date range
+    >>> horoscope.date_range
+    [datetime.datetime(2019, 3, 21, 0, 0), datetime.datetime(2019, 4, 20, 0, 0)]
+
+    # Lucky Color
+    >>> horoscope.color
+    'Spring Green'
+    
+    # Sign compatibility
+    >>> horoscope.compatibility
+    'Aquarius'
+    
+    # Horoscope date for which the info is valid for
+    >>> horoscope.current_date
+    datetime.date(2019, 6, 2)
+    
+    # Lucky number
+    >>> horoscope.lucky_number
+    85
+    
 
 Support
 ----------
@@ -38,13 +70,11 @@ Contributing
 ---------------
 Please see the repository's `CONTRIBUTING` file.
 
-Say Thanks
----------------
-|say thanks|
+Author
+______
+`Sameer Kumar <https://sameerkumar.website>`_
 
-Donate
----------------
-|Paypal|
+
 
 
 .. |downloads| image:: https://pepy.tech/badge/pyaztro
