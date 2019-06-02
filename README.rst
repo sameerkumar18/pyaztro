@@ -66,12 +66,8 @@ Support
 ----------
 If you encounter any bugs, please let me know by `creating an issue <https://github.com/sameerkumar18/pyaztro/issues/new>`_ or tweeting at me `@sameer_kumar018 <https://www.twitter.com/sameer_kumar018>`_.
 
-Contributing
----------------
-Please see the repository's `CONTRIBUTING` file.
-
 Author
-______
+------
 `Sameer Kumar <https://sameerkumar.website>`_
 
 
