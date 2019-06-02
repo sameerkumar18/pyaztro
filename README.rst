@@ -22,7 +22,7 @@ Installation
 
     $ pip install pyaztro
 
-Example Usage
+Usage
 ------------------
 :: 
 
