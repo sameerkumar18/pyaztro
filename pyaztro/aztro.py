@@ -20,8 +20,11 @@ import pyaztro.exceptions
 class Aztro(object):
     def __init__(self, sign, day='today', timezone=None):
         base_url = 'https://aztro.sameerkumar.website'
-        self.timezone = timezone
+        sign = str(sign).lower() if sign else sign
+        day = str(day).lower() if day else day
+        # Backward compatibility
         self.sign = sign
+        self.day = day
         if sign not in signs:
             raise pyaztro.exceptions.PyAztroSignException('Invalid sign {0} passed'.format(sign), sign)
         if day not in days:
